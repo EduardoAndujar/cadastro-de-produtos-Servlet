@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+body {
+	background: linear-gradient(10deg, #09203f 0%, #537895 100%);
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+    height: 100vh;
+   	font-family: 'Maven Pro', sans-serif;
+   	color:white;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header #logo-nav {
+    width: 100px;
+    margin: 20px 20px;
+}
+
+header img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+header nav {
+    font-size: 20px;
+    margin: 20px 100px;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    margin: auto;
+    width: 93%;
+    border-top: solid #DDDDDD 2px;
+    border-radius: 1px;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo-principal {
+	font-size: 40px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.texto-main {
+	width: 80%;
+	text-align: justify;
+	text-indent: 40px;
+	line-height: 20px;
+}
+
+form {
+	width:100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 30px;
+}
+
+form label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+form div {
+	margin: 10px 20px;
+}
+
+form .div-descricao {
+	width: 100%;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+input {
+	font-family: 'Maven Pro', sans-serif;
+	border-radius: 5px;
+}
+
+#idDescricao {
+	width: 500px;
+	height: 25px;
+}
+
+form .div-quant-valor{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+}
+
+form .div-quant-valor div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#idQuantidade {
+	width: 70px;
+	height: 25px;
+	text-align: center;
+}
+
+#idValorUnit {
+	width: 100px;
+	height: 25px;
+	text-align: center;
+}
+
+#id-botao {
+	margin-top: 23px;
+	width: 100px;
+	height: 35px;
+}
+
+.div-geral {
+	background-color: rgba(255,255,255,0.3);
+	padding: 10px;
+	border-radius: 10px;
+}
+
+table {
+	margin-top: 20px;
+}
+
+table tbody {
+	vertical-align: middle;
+	text-align: center;
+}
+
+td{
+	padding: 5px;
+	border: 1px solid #000000;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+table .id-celula{
+	width: 40px;
+	max-width: 40px;
+}
+
+table .descricao-celula{
+	width: 450px;
+	max-width: 450px;
+}
+
+table .quantidade-celula{
+	width: 80px;
+	max-width: 80px;
+}
+
+table .precoUnit-celula{
+	width: 150px;
+	max-width: 150px;
+}
+
+
+.link {
+	border: none;
+	background: none;
+}
+
+.div-botoes-comando {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.div-botoes-comando a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+	color: black;
+}
+
+footer {
+    width: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    border-top: solid #DDDDDD 2px;
+    border-radius: 1px;
+    font-size: 30px;
+}
+
+footer img {
+	margin: 40px;
+	width: 30px;
+}
