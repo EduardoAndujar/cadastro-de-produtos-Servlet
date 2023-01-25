@@ -16,7 +16,9 @@ Foram utilizados diversos modelos de fluxo para o projeto. Os principais foram:
 
 ### NovoProdutoServlet
 Responsável por cadastrar um novo produto a partir de um formulário e, em seguida, listar os produtos cadastrados.
-![Diagrama 1](https://github.com/EduardoAndujar/assets/blob/main/DiagramaServlet1.png)
+![Diagrama 1](https://github.com/EduardoAndujar/assets/blob/main/DiagramaSverlet1.svg)
+
+###
 
 # Tecnologias utilizadas
 ## Back end
