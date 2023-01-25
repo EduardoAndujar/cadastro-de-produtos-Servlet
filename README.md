@@ -4,7 +4,7 @@
 
 Projeto que visa a simulação de um sistema de cadastro de materiais em geral para uma banco de dados utilizando Servlets. O objetivo foi apenas praticar os conceitos de Servlet em Java, dessa forma, simulou-se um banco de dados na classe 'BancoDeDados' da própria aplicação, ou seja, é reinicializada sempre que o programa é reiniciado. Para a executar da aplicação foi utilizado o container Apache Tomcat de versão 9.0.69.
 
-Para a página, foram utilizados as linguagens de marcação HTML e CSS, bem como a linguagem de programação JavaScript para fazer a mascara de moeda brasileira no input de preço unitário. Vale ressaltar que para a utilização da biblioteca JSTL (Java Standard Tag Library) as páginas Web são da extensão '.jsp' (Java Server Pages).
+Para a página, foram utilizados as linguagens de marcação HTML e CSS, bem como a linguagem de programação JavaScript para fazer a mascara de moeda brasileira no input de preço unitário. Também foi usado a biblioteca JSTL (Java Standard Tag Library), no qual foi usado as tags 'core' e 'fmt' para fazer o controle de fluxo e a formatação do texto. Vale ressaltar que para a utilização do JSTL as páginas Web são da extensão '.jsp' (Java Server Pages).
 
 ## Layout web
 ![Web 1](https://github.com/EduardoAndujar/assets/blob/main/cadastro-Servlet1.jpg)
@@ -12,7 +12,11 @@ Para a página, foram utilizados as linguagens de marcação HTML e CSS, bem com
 ![Web 2](https://github.com/EduardoAndujar/assets/blob/main/cadastro-Servlet2.jpg)
 
 ## Modelo conceitual
-Pendente...
+Foram utilizados diversos modelos de fluxo para o projeto. Os principais foram:
+
+### NovoProdutoServlet
+Responsável por cadastrar um novo produto a partir de um formulário e, em seguida, listar os produtos cadastrados.
+![Diagrama 1](https://github.com/EduardoAndujar/assets/blob/main/DiagramaServlet1.png)
 
 # Tecnologias utilizadas
 ## Back end
